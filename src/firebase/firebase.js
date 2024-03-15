@@ -5,6 +5,8 @@ import { getAuth, onAuthStateChanged, signOut, createUserWithEmailAndPassword, G
 
 const env = import.meta.env
 
+console.log("env", env)
+
 const config = {
   apiKey: env.VITE_FIREBASE_API_KEY,
   authDomain: env.VITE_FIREBASE_AUTH_DOMAIN,
