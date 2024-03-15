@@ -15,6 +15,8 @@ const config = {
   appId: env.VITE_FIREBASE_APP_ID
 };
 
+console.log("config", config)
+
 const app = initializeApp(config);
 
 export const auth = getAuth(app);
